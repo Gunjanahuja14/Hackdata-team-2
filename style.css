@@ -9,7 +9,6 @@
     background-color: rgb(35, 35, 167);
 }
 .logo{
-    height: 100px;
     width: 150px;
 }
 
@@ -31,15 +30,34 @@
     background-position: right bottom, left top;
     background-repeat: no-repeat, repeat;
     opacity: 0.85;
-    float: left;
+    float:left;
+    
 }
+
+
+    
+/*
+.vitals{
+    width: 400px;
+    height: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    background: linear-gradient( #78aac3,#78aac3);
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: top;
+    margin: 20px;
+    color: black;
+}
+*/
 
 .vitals{
     width: 400px;
     height: 100px;
     border: 2px solid black;
     display: inline-block;
-    
+    background-color: #78aac3;
     margin: 10px;
     border-radius: 5px;
     text-align: center;
@@ -48,4 +66,16 @@
     color: black;
     
     
+}
+
+.number{
+    font-size:xx-large;
+    text-align: left;
+    padding: 10px,10px,10px,10px;
+
+}
+.cardname{
+    font-size: x-large;
+    text-align: left;
+    padding: 10px,10px,10px,10px;
 }
